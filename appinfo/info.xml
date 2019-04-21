@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>hellodl</id>
+    <name>Hello D L</name>
+    <summary>use oss link to download file</summary>
+    <description><![CDATA[use other link to download]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="z@oio7.com" >tuoxie</author>
+    <namespace>HelloDL</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/x000zh/nc-hello-dl/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Hello D L</name>
+            <route>hellodl.page.index</route>
+        </navigation>
+    </navigations>
+</info>

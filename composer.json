@@ -1,0 +1,15 @@
+{
+    "name": "Hello D L",
+    "description": "use oss link to download file",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "tuoxie"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
